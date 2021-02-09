@@ -17,23 +17,18 @@
 		6F463DDE25D106D10061675B /* HNWStatisticsSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463DDD25D106D10061675B /* HNWStatisticsSDKTests.m */; };
 		6F463DE925D106D10061675B /* HNWStatisticsSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463DE825D106D10061675B /* HNWStatisticsSDKUITests.m */; };
 		6F463E0D25D1078D0061675B /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E0C25D1078D0061675B /* HomePageViewController.m */; };
-		6F463E2925D10A330061675B /* HNWStatisticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E1C25D10A330061675B /* HNWStatisticsUtils.m */; };
-		6F463E2A25D10A330061675B /* HNWStatisticsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E1D25D10A330061675B /* HNWStatisticsRequest.m */; };
-		6F463E2B25D10A330061675B /* HNWStatisticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E1E25D10A330061675B /* HNWStatisticsSDK.m */; };
-		6F463E2C25D10A330061675B /* HNWStatisticsDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E2025D10A330061675B /* HNWStatisticsDuration.m */; };
-		6F463E2D25D10A330061675B /* HNWCatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E2225D10A330061675B /* HNWCatchCrash.m */; };
-		6F463E2E25D10A330061675B /* HNWStatisticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E2325D10A330061675B /* HNWStatisticsManager.m */; };
-		6F463E2F25D10A330061675B /* HNWStatisticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E2625D10A330061675B /* HNWStatisticsConfiguration.m */; };
-		6F463E4825D10A5A0061675B /* HNWStatisticsLogFetchOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E3725D10A5A0061675B /* HNWStatisticsLogFetchOptions.m */; };
-		6F463E4925D10A5A0061675B /* HNWStatisticsEventLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E3825D10A5A0061675B /* HNWStatisticsEventLog.m */; };
-		6F463E4A25D10A5A0061675B /* HNWStatisticsPageLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E3925D10A5A0061675B /* HNWStatisticsPageLog.m */; };
-		6F463E4B25D10A5A0061675B /* HNWStatisticsLogFetchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E3D25D10A5A0061675B /* HNWStatisticsLogFetchResult.m */; };
-		6F463E4C25D10A5A0061675B /* HNWStatisticsStartLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E4025D10A5A0061675B /* HNWStatisticsStartLog.m */; };
-		6F463E4D25D10A5A0061675B /* HNWStatisticsCrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E4225D10A5A0061675B /* HNWStatisticsCrashLog.m */; };
-		6F463E4E25D10A5A0061675B /* HNWStatisticsLogDeleteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E4325D10A5A0061675B /* HNWStatisticsLogDeleteOptions.m */; };
-		6F463E4F25D10A5A0061675B /* HNWStatisticsLogCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E4425D10A5A0061675B /* HNWStatisticsLogCache.m */; };
-		6F463E5025D10A5A0061675B /* HNWStatisticsDeviceLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E4725D10A5A0061675B /* HNWStatisticsDeviceLog.m */; };
-		6F463E5C25D10CD20061675B /* UIViewController+HNWStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F463E5B25D10CD20061675B /* UIViewController+HNWStatistics.m */; };
+		6F809E1025D227E600A92D01 /* HNWStatisticsBasicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E0F25D227E600A92D01 /* HNWStatisticsBasicInfo.m */; };
+		6F809E2325D22A6800A92D01 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E2225D22A6800A92D01 /* NotificationService.m */; };
+		6F809E2725D22A6800A92D01 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F809E1F25D22A6800A92D01 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F809E3B25D230FC00A92D01 /* NSUserDefaults+HNWKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E3A25D230FC00A92D01 /* NSUserDefaults+HNWKit.m */; };
+		6F809E6325D23A3D00A92D01 /* HNWStatisticsBasicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E0F25D227E600A92D01 /* HNWStatisticsBasicInfo.m */; };
+		6F809E6825D23A4E00A92D01 /* NSUserDefaults+HNWKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E3A25D230FC00A92D01 /* NSUserDefaults+HNWKit.m */; };
+		6F809E9E25D25A7F00A92D01 /* HNWStatisticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E9D25D25A7F00A92D01 /* HNWStatisticsSDK.m */; };
+		6F809E9F25D25A7F00A92D01 /* HNWStatisticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809E9D25D25A7F00A92D01 /* HNWStatisticsSDK.m */; };
+		6F809EA625D25AF500A92D01 /* HNWStatisticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809EA525D25AF500A92D01 /* HNWStatisticsConfiguration.m */; };
+		6F809EA725D25AF500A92D01 /* HNWStatisticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809EA525D25AF500A92D01 /* HNWStatisticsConfiguration.m */; };
+		6F809EB025D26B2900A92D01 /* HNWStatisticsLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809EAF25D26B2900A92D01 /* HNWStatisticsLocation.m */; };
+		6F809EB125D26B2900A92D01 /* HNWStatisticsLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F809EAF25D26B2900A92D01 /* HNWStatisticsLocation.m */; };
 		A021F421019FC6D871929AC0 /* Pods_HNWStatisticsSDK_HNWStatisticsSDKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BB4709EE8D983B1BEB8F4 /* Pods_HNWStatisticsSDK_HNWStatisticsSDKUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +47,28 @@
 			remoteGlobalIDString = 6F463DBD25D106CF0061675B;
 			remoteInfo = HNWStatisticsSDK;
 		};
+		6F809E2525D22A6800A92D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F463DB625D106CF0061675B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F809E1E25D22A6800A92D01;
+			remoteInfo = NotificationService;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F809E2B25D22A6800A92D01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F809E2725D22A6800A92D01 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2017F473E99236C3DC70DA99 /* Pods-HNWStatisticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNWStatisticsSDK.release.xcconfig"; path = "Target Support Files/Pods-HNWStatisticsSDK/Pods-HNWStatisticsSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,41 +89,24 @@
 		6F463DEA25D106D10061675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F463E0B25D1078D0061675B /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		6F463E0C25D1078D0061675B /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		6F463E1925D10A330061675B /* HNWCatchCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWCatchCrash.h; sourceTree = "<group>"; };
-		6F463E1A25D10A330061675B /* HNWStatisticsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsSDK.h; sourceTree = "<group>"; };
-		6F463E1B25D10A330061675B /* HNWStatisticsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsUtils.h; sourceTree = "<group>"; };
-		6F463E1C25D10A330061675B /* HNWStatisticsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsUtils.m; sourceTree = "<group>"; };
-		6F463E1D25D10A330061675B /* HNWStatisticsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsRequest.m; sourceTree = "<group>"; };
-		6F463E1E25D10A330061675B /* HNWStatisticsSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsSDK.m; sourceTree = "<group>"; };
-		6F463E1F25D10A330061675B /* HNWStatisticsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsRequest.h; sourceTree = "<group>"; };
-		6F463E2025D10A330061675B /* HNWStatisticsDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsDuration.m; sourceTree = "<group>"; };
-		6F463E2225D10A330061675B /* HNWCatchCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWCatchCrash.m; sourceTree = "<group>"; };
-		6F463E2325D10A330061675B /* HNWStatisticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsManager.m; sourceTree = "<group>"; };
-		6F463E2425D10A330061675B /* HNWStatisticsDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsDuration.h; sourceTree = "<group>"; };
-		6F463E2525D10A330061675B /* HNWStatisticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsManager.h; sourceTree = "<group>"; };
-		6F463E2625D10A330061675B /* HNWStatisticsConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsConfiguration.m; sourceTree = "<group>"; };
-		6F463E2825D10A330061675B /* HNWStatisticsConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsConfiguration.h; sourceTree = "<group>"; };
-		6F463E3525D10A5A0061675B /* HNWStatisticsLogCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLogCache.h; sourceTree = "<group>"; };
-		6F463E3625D10A5A0061675B /* HNWStatisticsLogFetchOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLogFetchOptions.h; sourceTree = "<group>"; };
-		6F463E3725D10A5A0061675B /* HNWStatisticsLogFetchOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsLogFetchOptions.m; sourceTree = "<group>"; };
-		6F463E3825D10A5A0061675B /* HNWStatisticsEventLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsEventLog.m; sourceTree = "<group>"; };
-		6F463E3925D10A5A0061675B /* HNWStatisticsPageLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsPageLog.m; sourceTree = "<group>"; };
-		6F463E3A25D10A5A0061675B /* HNWStatisticsDeviceLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsDeviceLog.h; sourceTree = "<group>"; };
-		6F463E3B25D10A5A0061675B /* HNWStatisticsLogDeleteOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLogDeleteOptions.h; sourceTree = "<group>"; };
-		6F463E3C25D10A5A0061675B /* HNWStatisticsCrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsCrashLog.h; sourceTree = "<group>"; };
-		6F463E3D25D10A5A0061675B /* HNWStatisticsLogFetchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsLogFetchResult.m; sourceTree = "<group>"; };
-		6F463E3E25D10A5A0061675B /* HNWStatisticsStartLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsStartLog.h; sourceTree = "<group>"; };
-		6F463E3F25D10A5A0061675B /* HNWStatisticsPageLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsPageLog.h; sourceTree = "<group>"; };
-		6F463E4025D10A5A0061675B /* HNWStatisticsStartLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsStartLog.m; sourceTree = "<group>"; };
-		6F463E4125D10A5A0061675B /* HNWStatisticsLogFetchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLogFetchResult.h; sourceTree = "<group>"; };
-		6F463E4225D10A5A0061675B /* HNWStatisticsCrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsCrashLog.m; sourceTree = "<group>"; };
-		6F463E4325D10A5A0061675B /* HNWStatisticsLogDeleteOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsLogDeleteOptions.m; sourceTree = "<group>"; };
-		6F463E4425D10A5A0061675B /* HNWStatisticsLogCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsLogCache.m; sourceTree = "<group>"; };
-		6F463E4525D10A5A0061675B /* HNWStatisticsLogProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLogProvider.h; sourceTree = "<group>"; };
-		6F463E4625D10A5A0061675B /* HNWStatisticsEventLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsEventLog.h; sourceTree = "<group>"; };
-		6F463E4725D10A5A0061675B /* HNWStatisticsDeviceLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsDeviceLog.m; sourceTree = "<group>"; };
-		6F463E5A25D10CD20061675B /* UIViewController+HNWStatistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HNWStatistics.h"; sourceTree = "<group>"; };
-		6F463E5B25D10CD20061675B /* UIViewController+HNWStatistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HNWStatistics.m"; sourceTree = "<group>"; };
+		6F809E0E25D227E600A92D01 /* HNWStatisticsBasicInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsBasicInfo.h; sourceTree = "<group>"; };
+		6F809E0F25D227E600A92D01 /* HNWStatisticsBasicInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsBasicInfo.m; sourceTree = "<group>"; };
+		6F809E1425D229C200A92D01 /* HNWStatisticsSDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HNWStatisticsSDK.entitlements; sourceTree = "<group>"; };
+		6F809E1F25D22A6800A92D01 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F809E2125D22A6800A92D01 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		6F809E2225D22A6800A92D01 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		6F809E2425D22A6800A92D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F809E3425D22A7A00A92D01 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		6F809E3925D230FC00A92D01 /* NSUserDefaults+HNWKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+HNWKit.h"; sourceTree = "<group>"; };
+		6F809E3A25D230FC00A92D01 /* NSUserDefaults+HNWKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+HNWKit.m"; sourceTree = "<group>"; };
+		6F809E9C25D25A7F00A92D01 /* HNWStatisticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsSDK.h; sourceTree = "<group>"; };
+		6F809E9D25D25A7F00A92D01 /* HNWStatisticsSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsSDK.m; sourceTree = "<group>"; };
+		6F809EA425D25AF500A92D01 /* HNWStatisticsConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsConfiguration.h; sourceTree = "<group>"; };
+		6F809EA525D25AF500A92D01 /* HNWStatisticsConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsConfiguration.m; sourceTree = "<group>"; };
+		6F809EAC25D25D2B00A92D01 /* HNWStatisticsDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsDefines.h; sourceTree = "<group>"; };
+		6F809EAD25D25D5B00A92D01 /* HNWStatisticsInternalDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsInternalDefines.h; sourceTree = "<group>"; };
+		6F809EAE25D26B2900A92D01 /* HNWStatisticsLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNWStatisticsLocation.h; sourceTree = "<group>"; };
+		6F809EAF25D26B2900A92D01 /* HNWStatisticsLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNWStatisticsLocation.m; sourceTree = "<group>"; };
 		7436B1EB578D091939136F5F /* Pods-HNWStatisticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNWStatisticsSDK.debug.xcconfig"; path = "Target Support Files/Pods-HNWStatisticsSDK/Pods-HNWStatisticsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		7F61B45DE008F2A222E1CC20 /* Pods-HNWStatisticsSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNWStatisticsSDKTests.release.xcconfig"; path = "Target Support Files/Pods-HNWStatisticsSDKTests/Pods-HNWStatisticsSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		845FD42074D15A6D6179CAF5 /* Pods-HNWStatisticsSDK-HNWStatisticsSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNWStatisticsSDK-HNWStatisticsSDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-HNWStatisticsSDK-HNWStatisticsSDKUITests/Pods-HNWStatisticsSDK-HNWStatisticsSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +141,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F809E1C25D22A6800A92D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -171,9 +177,11 @@
 		6F463DB525D106CF0061675B = {
 			isa = PBXGroup;
 			children = (
+				6F809E9B25D25A5400A92D01 /* Statistics */,
 				6F463DC025D106CF0061675B /* HNWStatisticsSDK */,
 				6F463DDC25D106D10061675B /* HNWStatisticsSDKTests */,
 				6F463DE725D106D10061675B /* HNWStatisticsSDKUITests */,
+				6F809E2025D22A6800A92D01 /* NotificationService */,
 				6F463DBF25D106CF0061675B /* Products */,
 				4F5BB4ECCE3657959E02D0F4 /* Pods */,
 				5329299CB6CB65D40812EDC7 /* Frameworks */,
@@ -186,6 +194,7 @@
 				6F463DBE25D106CF0061675B /* HNWStatisticsSDK.app */,
 				6F463DD925D106D10061675B /* HNWStatisticsSDKTests.xctest */,
 				6F463DE425D106D10061675B /* HNWStatisticsSDKUITests.xctest */,
+				6F809E1F25D22A6800A92D01 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,11 +202,11 @@
 		6F463DC025D106CF0061675B /* HNWStatisticsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				6F809E1425D229C200A92D01 /* HNWStatisticsSDK.entitlements */,
 				6F463DC125D106CF0061675B /* AppDelegate.h */,
 				6F463DC225D106CF0061675B /* AppDelegate.m */,
 				6F463E0B25D1078D0061675B /* HomePageViewController.h */,
 				6F463E0C25D1078D0061675B /* HomePageViewController.m */,
-				6F463E1825D109EF0061675B /* HNWStatistics */,
 				6F463E1125D109950061675B /* SupportingFiles */,
 			);
 			path = HNWStatisticsSDK;
@@ -233,54 +242,34 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		6F463E1825D109EF0061675B /* HNWStatistics */ = {
+		6F809E2025D22A6800A92D01 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
-				6F463E1925D10A330061675B /* HNWCatchCrash.h */,
-				6F463E2225D10A330061675B /* HNWCatchCrash.m */,
-				6F463E2825D10A330061675B /* HNWStatisticsConfiguration.h */,
-				6F463E2625D10A330061675B /* HNWStatisticsConfiguration.m */,
-				6F463E2425D10A330061675B /* HNWStatisticsDuration.h */,
-				6F463E2025D10A330061675B /* HNWStatisticsDuration.m */,
-				6F463E2525D10A330061675B /* HNWStatisticsManager.h */,
-				6F463E2325D10A330061675B /* HNWStatisticsManager.m */,
-				6F463E1F25D10A330061675B /* HNWStatisticsRequest.h */,
-				6F463E1D25D10A330061675B /* HNWStatisticsRequest.m */,
-				6F463E1A25D10A330061675B /* HNWStatisticsSDK.h */,
-				6F463E1E25D10A330061675B /* HNWStatisticsSDK.m */,
-				6F463E1B25D10A330061675B /* HNWStatisticsUtils.h */,
-				6F463E1C25D10A330061675B /* HNWStatisticsUtils.m */,
-				6F463E5A25D10CD20061675B /* UIViewController+HNWStatistics.h */,
-				6F463E5B25D10CD20061675B /* UIViewController+HNWStatistics.m */,
-				6F463E3425D10A4E0061675B /* Log */,
+				6F809E3425D22A7A00A92D01 /* NotificationService.entitlements */,
+				6F809E2125D22A6800A92D01 /* NotificationService.h */,
+				6F809E2225D22A6800A92D01 /* NotificationService.m */,
+				6F809E2425D22A6800A92D01 /* Info.plist */,
 			);
-			path = HNWStatistics;
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
-		6F463E3425D10A4E0061675B /* Log */ = {
+		6F809E9B25D25A5400A92D01 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				6F463E3C25D10A5A0061675B /* HNWStatisticsCrashLog.h */,
-				6F463E4225D10A5A0061675B /* HNWStatisticsCrashLog.m */,
-				6F463E3A25D10A5A0061675B /* HNWStatisticsDeviceLog.h */,
-				6F463E4725D10A5A0061675B /* HNWStatisticsDeviceLog.m */,
-				6F463E4625D10A5A0061675B /* HNWStatisticsEventLog.h */,
-				6F463E3825D10A5A0061675B /* HNWStatisticsEventLog.m */,
-				6F463E3525D10A5A0061675B /* HNWStatisticsLogCache.h */,
-				6F463E4425D10A5A0061675B /* HNWStatisticsLogCache.m */,
-				6F463E3B25D10A5A0061675B /* HNWStatisticsLogDeleteOptions.h */,
-				6F463E4325D10A5A0061675B /* HNWStatisticsLogDeleteOptions.m */,
-				6F463E3625D10A5A0061675B /* HNWStatisticsLogFetchOptions.h */,
-				6F463E3725D10A5A0061675B /* HNWStatisticsLogFetchOptions.m */,
-				6F463E4125D10A5A0061675B /* HNWStatisticsLogFetchResult.h */,
-				6F463E3D25D10A5A0061675B /* HNWStatisticsLogFetchResult.m */,
-				6F463E4525D10A5A0061675B /* HNWStatisticsLogProvider.h */,
-				6F463E3F25D10A5A0061675B /* HNWStatisticsPageLog.h */,
-				6F463E3925D10A5A0061675B /* HNWStatisticsPageLog.m */,
-				6F463E3E25D10A5A0061675B /* HNWStatisticsStartLog.h */,
-				6F463E4025D10A5A0061675B /* HNWStatisticsStartLog.m */,
+				6F809E9C25D25A7F00A92D01 /* HNWStatisticsSDK.h */,
+				6F809E9D25D25A7F00A92D01 /* HNWStatisticsSDK.m */,
+				6F809EAC25D25D2B00A92D01 /* HNWStatisticsDefines.h */,
+				6F809EAD25D25D5B00A92D01 /* HNWStatisticsInternalDefines.h */,
+				6F809EA425D25AF500A92D01 /* HNWStatisticsConfiguration.h */,
+				6F809EA525D25AF500A92D01 /* HNWStatisticsConfiguration.m */,
+				6F809EAE25D26B2900A92D01 /* HNWStatisticsLocation.h */,
+				6F809EAF25D26B2900A92D01 /* HNWStatisticsLocation.m */,
+				6F809E0E25D227E600A92D01 /* HNWStatisticsBasicInfo.h */,
+				6F809E0F25D227E600A92D01 /* HNWStatisticsBasicInfo.m */,
+				6F809E3925D230FC00A92D01 /* NSUserDefaults+HNWKit.h */,
+				6F809E3A25D230FC00A92D01 /* NSUserDefaults+HNWKit.m */,
 			);
-			path = Log;
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,10 +284,12 @@
 				6F463DBB25D106CF0061675B /* Frameworks */,
 				6F463DBC25D106CF0061675B /* Resources */,
 				00284B4AE6DEA1F1F854132C /* [CP] Embed Pods Frameworks */,
+				6F809E2B25D22A6800A92D01 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6F809E2625D22A6800A92D01 /* PBXTargetDependency */,
 			);
 			name = HNWStatisticsSDK;
 			productName = HNWStatisticsSDK;
@@ -344,6 +335,23 @@
 			productReference = 6F463DE425D106D10061675B /* HNWStatisticsSDKUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6F809E1E25D22A6800A92D01 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F809E2825D22A6800A92D01 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				6F809E1B25D22A6800A92D01 /* Sources */,
+				6F809E1C25D22A6800A92D01 /* Frameworks */,
+				6F809E1D25D22A6800A92D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 6F809E1F25D22A6800A92D01 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,6 +371,9 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 6F463DBD25D106CF0061675B;
 					};
+					6F809E1E25D22A6800A92D01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 6F463DB925D106CF0061675B /* Build configuration list for PBXProject "HNWStatisticsSDK" */;
@@ -379,6 +390,7 @@
 			projectRoot = "";
 			targets = (
 				6F463DBD25D106CF0061675B /* HNWStatisticsSDK */,
+				6F809E1E25D22A6800A92D01 /* NotificationService */,
 				6F463DD825D106D10061675B /* HNWStatisticsSDKTests */,
 				6F463DE325D106D10061675B /* HNWStatisticsSDKUITests */,
 			);
@@ -404,6 +416,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6F463DE225D106D10061675B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F809E1D25D22A6800A92D01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,26 +539,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F463E2A25D10A330061675B /* HNWStatisticsRequest.m in Sources */,
-				6F463E4825D10A5A0061675B /* HNWStatisticsLogFetchOptions.m in Sources */,
-				6F463E4F25D10A5A0061675B /* HNWStatisticsLogCache.m in Sources */,
-				6F463E4B25D10A5A0061675B /* HNWStatisticsLogFetchResult.m in Sources */,
-				6F463E4925D10A5A0061675B /* HNWStatisticsEventLog.m in Sources */,
-				6F463E2F25D10A330061675B /* HNWStatisticsConfiguration.m in Sources */,
-				6F463E4E25D10A5A0061675B /* HNWStatisticsLogDeleteOptions.m in Sources */,
-				6F463E2925D10A330061675B /* HNWStatisticsUtils.m in Sources */,
 				6F463DC325D106CF0061675B /* AppDelegate.m in Sources */,
-				6F463E5C25D10CD20061675B /* UIViewController+HNWStatistics.m in Sources */,
-				6F463E5025D10A5A0061675B /* HNWStatisticsDeviceLog.m in Sources */,
-				6F463E2D25D10A330061675B /* HNWCatchCrash.m in Sources */,
-				6F463E4D25D10A5A0061675B /* HNWStatisticsCrashLog.m in Sources */,
-				6F463E2B25D10A330061675B /* HNWStatisticsSDK.m in Sources */,
-				6F463E4C25D10A5A0061675B /* HNWStatisticsStartLog.m in Sources */,
-				6F463E2E25D10A330061675B /* HNWStatisticsManager.m in Sources */,
-				6F463E4A25D10A5A0061675B /* HNWStatisticsPageLog.m in Sources */,
+				6F809EA625D25AF500A92D01 /* HNWStatisticsConfiguration.m in Sources */,
+				6F809E1025D227E600A92D01 /* HNWStatisticsBasicInfo.m in Sources */,
+				6F809EB025D26B2900A92D01 /* HNWStatisticsLocation.m in Sources */,
+				6F809E3B25D230FC00A92D01 /* NSUserDefaults+HNWKit.m in Sources */,
 				6F463DD425D106D10061675B /* main.m in Sources */,
-				6F463E2C25D10A330061675B /* HNWStatisticsDuration.m in Sources */,
 				6F463E0D25D1078D0061675B /* HomePageViewController.m in Sources */,
+				6F809E9E25D25A7F00A92D01 /* HNWStatisticsSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +566,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F809E1B25D22A6800A92D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F809E2325D22A6800A92D01 /* NotificationService.m in Sources */,
+				6F809E6325D23A3D00A92D01 /* HNWStatisticsBasicInfo.m in Sources */,
+				6F809E6825D23A4E00A92D01 /* NSUserDefaults+HNWKit.m in Sources */,
+				6F809E9F25D25A7F00A92D01 /* HNWStatisticsSDK.m in Sources */,
+				6F809EA725D25AF500A92D01 /* HNWStatisticsConfiguration.m in Sources */,
+				6F809EB125D26B2900A92D01 /* HNWStatisticsLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -571,6 +591,11 @@
 			isa = PBXTargetDependency;
 			target = 6F463DBD25D106CF0061675B /* HNWStatisticsSDK */;
 			targetProxy = 6F463DE525D106D10061675B /* PBXContainerItemProxy */;
+		};
+		6F809E2625D22A6800A92D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F809E1E25D22A6800A92D01 /* NotificationService */;
+			targetProxy = 6F809E2525D22A6800A92D01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -712,6 +737,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNWStatisticsSDK/HNWStatisticsSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.00.0;
 				DEVELOPMENT_TEAM = MYLHBGJFAY;
@@ -733,6 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNWStatisticsSDK/HNWStatisticsSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.00.0;
 				DEVELOPMENT_TEAM = MYLHBGJFAY;
@@ -754,6 +781,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYLHBGJFAY;
 				INFOPLIST_FILE = HNWStatisticsSDKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -774,6 +802,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYLHBGJFAY;
 				INFOPLIST_FILE = HNWStatisticsSDKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -824,6 +853,46 @@
 			};
 			name = Release;
 		};
+		6F809E2925D22A6800A92D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYLHBGJFAY;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.HNWStatisticsSDK.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F809E2A25D22A6800A92D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYLHBGJFAY;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.young.HNWStatisticsSDK.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -859,6 +928,15 @@
 			buildConfigurations = (
 				6F463DF425D106D10061675B /* Debug */,
 				6F463DF525D106D10061675B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F809E2825D22A6800A92D01 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F809E2925D22A6800A92D01 /* Debug */,
+				6F809E2A25D22A6800A92D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
