@@ -7,22 +7,38 @@
 
 #import "NSUserDefaults+HNWKit.h"
 
-NSString * const HNWUserDefaultsKey(NSString *key) {
+static NSString * const HNWUserDefaultsDefaultGroup() {
+    return [NSString stringWithFormat:@"group.%@", [NSBundle mainBundle].bundleIdentifier];
+}
+
+
+
+NSString * const HNWGroupUserDefaultsDeviceIdKey() {
+    return [NSString stringWithFormat:@"%@.%@", HNWUserDefaultsDefaultGroup(), @"deviceId"];
+}
+
+NSString * const HNWGroupUserDefaultsUserIdKey() {
+    return [NSString stringWithFormat:@"%@.%@", HNWUserDefaultsDefaultGroup(), @"userId"];
+}
+
+
+NSString * const HNWGroupUserDefaultsKey(NSString *key) {
     if (key && [key isKindOfClass:[NSString class]] && key.length > 0) {
-        return [NSString stringWithFormat:@"%@.%@", [NSBundle mainBundle].bundleIdentifier, key];
+        return [NSString stringWithFormat:@"%@.%@", HNWUserDefaultsDefaultGroup(), key];
     } else {
         return @"";
     }
 }
 
+
+
 @implementation NSUserDefaults (HNWKit)
 
-+ (NSUserDefaults *)hnwSharedUserDefaults {
++ (NSUserDefaults *)hnwGroupUserDefaults {
     static NSUserDefaults *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString *groupId = [NSString stringWithFormat:@"group.%@", [NSBundle mainBundle].bundleIdentifier];
-        sharedInstance = [[NSUserDefaults alloc] initWithSuiteName:groupId];
+        sharedInstance = [[NSUserDefaults alloc] initWithSuiteName:HNWUserDefaultsDefaultGroup()];
     });
     return sharedInstance;
 }

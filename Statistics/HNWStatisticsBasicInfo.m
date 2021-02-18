@@ -10,7 +10,10 @@
 
 @implementation HNWStatisticsBasicInfo
 
-+ (HNWStatisticsBasicInfo *)sharedBasicInfo {
+@synthesize hnwUserId = _hnwUserId;
+@synthesize hnwDeviceId = _hnwDeviceId;
+
++ (HNWStatisticsBasicInfo *)hnwSharedBasicInfo {
     static HNWStatisticsBasicInfo *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -22,15 +25,24 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _hnwUserId = @"0";
+        _hnwUserId = [self hnwStringForUserId];
+        _hnwDeviceId = [self hnwStringForDeviceId];
         _hnwAppVersion = [[NSBundle mainBundle].infoDictionary objectForKey:@"CFBundleShortVersionString"];
         _hnwChannel = @"App Store";
     }
     return self;
 }
 
+- (NSString *)hnwUserId {
+    return [self hnwStringForUserId];
+}
+
 - (NSString *)hnwDeviceId {
-    NSString *deviceId = [NSUserDefaults.hnwSharedUserDefaults stringForKey:HNWUserDefaultsKey(@"deviceId")];
+    return [self hnwStringForDeviceId];
+}
+
+- (NSString *)hnwStringForDeviceId {
+    NSString *deviceId = [NSUserDefaults.hnwGroupUserDefaults stringForKey:HNWGroupUserDefaultsDeviceIdKey()];
     if (deviceId && deviceId.length > 0) {
         return deviceId;
     } else {
@@ -38,11 +50,12 @@
     }
 }
 
-- (void)setHnwUserId:(NSString *)hnwUserId {
-    if (hnwUserId && [hnwUserId isKindOfClass:[NSString class]] && hnwUserId.length > 0) {
-        _hnwUserId = [hnwUserId copy];
+- (NSString *)hnwStringForUserId {
+    NSString *userId = [NSUserDefaults.hnwGroupUserDefaults stringForKey:HNWGroupUserDefaultsUserIdKey()];
+    if (userId && userId.length > 0) {
+        return userId;
     } else {
-        _hnwUserId = @"0";
+        return @"0";
     }
 }
 

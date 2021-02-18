@@ -9,11 +9,21 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXPORT NSString * const HNWUserDefaultsKey(NSString *key);
+/// 默认组中 设备号 key
+FOUNDATION_EXPORT NSString * const HNWGroupUserDefaultsDeviceIdKey(void);
+/// 默认组中 用户ID key
+FOUNDATION_EXPORT NSString * const HNWGroupUserDefaultsUserIdKey(void);
+
+
+/// 获取默认组中 key
+FOUNDATION_EXPORT NSString * const HNWGroupUserDefaultsKey(NSString *key);
+
+
 
 @interface NSUserDefaults (HNWKit)
 
-@property (class, readonly, strong) NSUserDefaults *hnwSharedUserDefaults;
+/// 默认组
+@property (class, readonly, strong) NSUserDefaults *hnwGroupUserDefaults;
 
 @end
 
